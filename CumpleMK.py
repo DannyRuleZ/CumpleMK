@@ -76,8 +76,6 @@ if st.button("Presiona aquí 🎁"):
 
     st.audio(audio_bytes, format="audio/mp3", autoplay=True)
 
-    st.components.v1.html(audio_html, height=0)
-
     # MENSAJE SORPRESA
     st.markdown("""
     <div class="card">
