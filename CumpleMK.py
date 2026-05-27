@@ -71,11 +71,10 @@ if st.button("Presiona aquí 🎁"):
     st.balloons()
 
     # AUDIO AUTOMATICO
-    audio_html = """
-    <audio autoplay>
-      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
-    </audio>
-    """
+    with open("Chino & Nacho - Niña Bonita (Original Version).mp3", "rb") as audio_file:
+    audio_bytes = audio_file.read()
+
+    st.audio(audio_bytes, format="audio/mp3", autoplay=True)
 
     st.components.v1.html(audio_html, height=0)
 
