@@ -66,7 +66,7 @@ st.write("")
 st.markdown("""
 <p style='text-align:center; font-size:18px; color:#6b2d3e;'>
 🎧 Pequeña recomendación:
-ajusta un poquito el volumen antes de abrir tu sorpresa ❤️
+ajusta un poquito bajo el volumen antes de abrir tu sorpresa ❤️
 </p>
 """, unsafe_allow_html=True)
 
